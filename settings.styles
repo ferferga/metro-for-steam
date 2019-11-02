@@ -21,9 +21,9 @@
 
 			Notifications.PanelPosition     "BottomRight"
 			Notifications.PanelPosition     "TopRight" [$OSX]
-			Notifications.SlideDirection    "Vertical"    // Can be "Vertical", "Horizontal", "None" and controls slide effect
-			Notifications.FadeInTime      "0.45"
-			Notifications.FadeOutTime     "0.45"
+			Notifications.SlideDirection    "Horizontal"    // Can be "Vertical", "Horizontal", "None" and controls slide effect
+			Notifications.FadeInTime      "0.2"
+			Notifications.FadeOutTime     "0.2"
 			Notifications.DisplayTime     "5.0"
 			Notifications.StackSize       "3"
 
@@ -75,10 +75,10 @@
 			TextEntry.IMEFGColor        "Black"
 			
 			// Friends List colors
-			Friends.InGameColor       "130 186 0 255"
-			Friends.OnlineColor       "93 178 255 255"
-			Friends.OfflineColor      "White45"
-			Friends.GoldenColor       "255 255 99 255"
+			Friends.InGameColor       "Friends_InGame"
+			Friends.OnlineColor       "Friends_Online"
+			Friends.OfflineColor      "Friends_Offline"
+			Friends.GoldenColor       "Friends_Golden"
 			Friends.PanelDefault      "White75"
 			Friends.PanelOver       "White"
 			Friends.PanelSelected     "ClientBG"

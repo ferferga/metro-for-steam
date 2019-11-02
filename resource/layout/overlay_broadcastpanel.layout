@@ -31,7 +31,7 @@
 	layout
 	{
 		place { control="TitleText" x=68 y=11 }
-		place { control="InstructionText" x=68 y=37 }
+		place { control="InstructionText" x=68 y=35 }
 
 		place { control="ShowBroadcast,StopBroadcast,ShowChat,ShowSettings" x=68 align=bottom margin-bottom=8 spacing=8 height=28 margin-right=16 }
 	}
